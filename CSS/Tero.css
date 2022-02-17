@@ -4,13 +4,13 @@ body{
     line-height: 25px;
 }
 header {
-    background-color: rgb(56, 46, 30);
+    background: rgb(77, 177, 180);
     text-align: center;
 }
 header h1 {
-    color: white;
-    font-family: 'helvetica', 'Arial', sans-serif;
+    color: rgb(218, 218, 218);
     font-size: 40px;
+    margin-top: 10px;
 }
 h1, h2 {
     font-family: 'Libre Baskerville', serif;
@@ -18,7 +18,7 @@ h1, h2 {
 header img {
     border-radius: 170px;
     width: 300px;
-    border: 20px rgb(0, 0, 0) solid;
+    border: 20px rgb(255, 255, 255) solid;
 }
 main {
     max-width: 800px;
@@ -40,7 +40,7 @@ a:hover {
     color: green;
 }
 footer{
-    background-color: rgb(56, 46, 30);
+    background-color: rgb(77, 177, 180);
     text-align: center;
     color: white;
     padding: 50px;
@@ -50,6 +50,7 @@ footer p{
 }
 
 p.caption{
+    font-size: 15px;
     font-style: italic;
     color: gray;
     margin-top: 0;
